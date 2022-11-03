@@ -1,9 +1,9 @@
-let name = 'ВячЕслаВ';
-let surname = 'оСТре';
+let name = 'ВячЕСлаВ';
+let surname = ' оСТер';
 
-let correctName = name.substr(0,1 ).toUpperCase() + name.substr(1).toLowerCase();
-let correctSurname = surname.substr(0,1 ).toUpperCase() + surname.substr(1).toLowerCase();
+let normalName = name.substr(0, 1).toUpperCase() + name.substr(1).toLowerCase();
+let normalSurname = surname.substr(0, 1).toUpperCase() + surname.substr(1).toLowerCase();
 
-let != = correctName != != || = != surname? 'Имя было преобразовано' : 'Имя осталось без изменений';
+let proverkaName = normalName != name || normalSurname != surname ? 'Имя преобразилось' : 'Имя без изменений';
 
-console.log(correctName, correctSurname, resultName);
+console.log(normalName, normalSurname, proverkaName);
